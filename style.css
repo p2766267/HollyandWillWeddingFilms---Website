@@ -1,0 +1,78 @@
+h1 {
+    color: rgb(178, 156, 28);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    padding: 80px;
+    display: inline-block;
+}
+
+p{
+    color: rgb(178, 156, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+
+hr{
+    border-top: 8px solid rgb(178, 156, 28);
+    border-radius: 5px;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin: 10px;
+}
+    .search-bar {
+    margin-top: 20px;
+    }
+    .search-bar input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    }
+    .search-bar input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(193, 170, 54);
+    color: black;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    }
+    .about {
+    margin-top: 20px;
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', 'Arial', 'sans-serif'
+    }
+    .instagram-link {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 9999;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .instagram-link img {
+        width: 30px;
+        height:30px ;
+    }
+    .GMail-link {
+        position: fixed;
+        top: 80px;
+        right: 10px;
+        z-index: 9999;
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .GMail-link img {
+        width: 30px;
+        height:30px ;
+    }
